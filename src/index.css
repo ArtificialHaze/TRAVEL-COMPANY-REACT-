@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  background-color: #000300;
+} */
+
+.headerListItem.active {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.optionCounterButton:disabled {
+  cursor: not-allowed;
+}
+
+.headerContainer.listMode {
+  margin: 20px 0px 0px 0px;
+}
